@@ -17,9 +17,10 @@ export const LinkMenu = styled.a`
   padding-right: 35px;
   cursor: pointer;
   color: #5c6a7f;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 16px;
   transition: 0.2s linear;
+  text-decoration: none;
 
   &:hover {
     color: #f87c18;

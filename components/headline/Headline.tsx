@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Description from "./Description";
 import { Container } from "./headline.styles";
-import Img from "../../public/img/headline-img.png";
+import Img from "../../public/img/home/headline-img.png";
 
 export default function Headline() {
   return (

@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <Container>
       <Menu>
-        <LinkMenu>Equipe</LinkMenu>
+        <LinkMenu href="#Equipe">Equipe</LinkMenu>
         <LinkMenu>Projeto</LinkMenu>
         <LinkMenu>Mentor</LinkMenu>
         <LinkMenu>Professor</LinkMenu>

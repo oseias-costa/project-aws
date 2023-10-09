@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding-top: 80px;
+  padding-top: 60px;
 `;
 
 export const Title = styled.h2`
@@ -32,10 +31,10 @@ export const ContainerCart = styled.div`
     align-items: center;
     padding: 20px;
     margin: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-      &:hover {
+      /* &:hover {
         box-shadow:
           rgba(249, 134, 21, 0.25) 0px 1px 2px,
           rgba(249, 134, 21, 0.25) 0px 2px 4px,
@@ -48,7 +47,7 @@ export const ContainerCart = styled.div`
             color: #fff;
             background-color: #F98615;
         }
-  }
+  } */
 
   a {
     border: 1px solid #F98615;
@@ -60,8 +59,22 @@ export const ContainerCart = styled.div`
     padding-bottom: 5px;
     font-size: 13px;
     margin-top: 18px;
-    transition: 0.2s linear;
+    transition: 0.4s linear;
+    text-decoration: none;
+
+    &:hover {
+      background: linear-gradient(90deg, #f98615 29.31%, #fea808 77.26%);
+      color: #fff;
+      box-shadow:
+      rgba(249, 134, 21, 0.25) 0px 1px 2px,
+      rgba(249, 134, 21, 0.25) 0px 2px 4px,
+      rgba(249, 134, 21, 0.25) 0px 4px 8px,
+      rgba(249, 134, 21, 0.25) 0px 8px 16px,
+      rgba(249, 134, 21, 0.25) 0px 16px 32px,
+      rgba(249, 134, 21, 0.25) 0px 32px 64px;
+    }
   }
+
 `
 
 export const Img = styled(Image)`
@@ -87,6 +100,6 @@ export const ButtonLink = styled.a`
   margin-top: 18px;
 `
 
-export const LinkMember = styled(Link)`
+export const LinkMember = styled.a`
   text-decoration: none;
 `

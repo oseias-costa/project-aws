@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.header`
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
+  padding-bottom: 20px;
 `;
 
 export const DescriptionContainer = styled.div`
@@ -29,7 +30,7 @@ export const DescriptionText = styled.p`
 
 export const ButtonHeadline = styled.a`
   background: linear-gradient(90deg, #f98615 29.31%, #fea808 77.26%);
-  border-radius: 6px;
+  border-radius: 500px;
   margin-top: 25px;
   padding-left: 44px;
   padding-right: 44px;
