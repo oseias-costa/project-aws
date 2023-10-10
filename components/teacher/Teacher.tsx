@@ -4,7 +4,7 @@ import Photo from "../../public/img/home/louise.png";
 
 export default function Teacher() {
   return (
-    <S.MentorContainer>
+    <S.MentorContainer id='Professor'>
       <S.Img src={Photo} alt="Louise Carmo" />
       <S.Description>
         <h3>Professora</h3>

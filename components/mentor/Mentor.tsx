@@ -4,7 +4,7 @@ import Photo from "../../public/img/home/daniel-vargas.png";
 
 export default function Mentor() {
   return (
-    <S.MentorContainer>
+    <S.MentorContainer id='Mentor'>
       <S.Img src={Photo} alt="Daniel Vargas Roque" />
       <S.Description>
         <h3>Mentor</h3>

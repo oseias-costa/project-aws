@@ -39,6 +39,7 @@ export const ButtonHeadline = styled.a`
   cursor: pointer;
   color: #fff;
   font-weight: 500;
+  text-decoration: none;
   transition: 0.2s linear;
   box-shadow:
     rgba(158, 159, 175, 0.25) 0px 1px 2px,

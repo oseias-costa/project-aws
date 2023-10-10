@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
+import { GloalStyle } from "./style/GlobalStyle";
 import StyledComponentsRegistry from "./style/registry";
 
 const quicksand = Quicksand({
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={quicksand.className}>
         <StyledComponentsRegistry>
+          <GloalStyle />
           {children}
         </StyledComponentsRegistry>
       </body>

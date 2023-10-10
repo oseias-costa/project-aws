@@ -9,7 +9,7 @@ export const MentorContainer = styled.section`
 `;
 
 export const Description = styled.div`
-  max-width: 400px;
+  max-width: 500px;
   padding-left: 50px;
 
   h3 {

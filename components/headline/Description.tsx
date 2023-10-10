@@ -7,7 +7,7 @@ export default function Description() {
       <S.Subtitle>{headelineData.subtitle}</S.Subtitle>
       <S.Title>{headelineData.title}</S.Title>
       <S.DescriptionText>{headelineData.description}</S.DescriptionText>
-      <S.ButtonHeadline>ver equipe</S.ButtonHeadline>
+      <S.ButtonHeadline href="#Equipe">ver equipe</S.ButtonHeadline>
     </S.DescriptionContainer>
   );
 }
