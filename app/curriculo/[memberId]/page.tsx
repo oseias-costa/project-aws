@@ -11,7 +11,7 @@ export async function generateStaticParams(){
 
 export default function CurriculoPage({params}: {params: {memberId: string}}){
     const { memberId } = params
-    const member = data.filter((item) => item.memberId === memberId)[0]
+    const member = data.filter((item) => item.memberId === memberId)[0] 
 
     return(
         <>

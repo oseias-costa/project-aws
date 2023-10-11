@@ -6,9 +6,12 @@ import { dataTeam } from "./_dataTeam";
 export default function Team() {
   const membersCard = dataTeam.map(item => {
     return(
-      // <S.LinkMember href={`curriculo/${item.link}`} >
-        <Member key={item.id} name={item.name} img={item.img} link={item.link} />
-      // </S.LinkMember>
+        <Member 
+          key={item.id} 
+          name={item.name} 
+          img={item.img} 
+          link={item.link} 
+        />
     )
   })
 
