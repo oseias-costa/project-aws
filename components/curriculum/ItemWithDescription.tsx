@@ -1,7 +1,7 @@
 "use client";
 import { ItemWithDescriptionContainer } from "./curriculum.styles";
 
-export default function ItemWithDescription({item, content}: {item: string, content: string}){
+export default function ItemWithDescription({item, content}: {item: string, content: string | undefined}){
     return(
         <ItemWithDescriptionContainer>
             <h3>{item}</h3>

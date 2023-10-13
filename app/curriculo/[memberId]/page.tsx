@@ -41,7 +41,7 @@ export default function CurriculoPage({params}: {params: {memberId: string}}){
             { member.about !== '' && (
                 <ItemWithDescription 
                     item="Sobre mim"
-                    content={member.about}
+                    content={member?.about}
                 />)
             }
             <ItemWithDescription 
