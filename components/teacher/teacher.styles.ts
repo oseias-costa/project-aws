@@ -20,7 +20,7 @@ export const Description = styled.div`
   padding-left: 50px;
 
   h3 {
-    color: #38aca8;
+    color: #f87c18;
     font-size: 32px;
     font-weight: 400;
     margin: 0;
@@ -30,7 +30,7 @@ export const Description = styled.div`
   h4 {
     margin: 0;
     padding: 0;
-    color: #2a2a2a;
+    color: #5c6a7f;
     font-size: 24px;
     font-weight: 500;
   }
@@ -56,7 +56,7 @@ export const Skills = styled.p`
 `;
 
 export const DescriptionText = styled.p`
-  color: #2a2a2a;
+  color: #5c6a7f;
   font-size: 14px;
   font-weight: 400;
 `;

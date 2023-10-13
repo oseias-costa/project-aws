@@ -4,6 +4,7 @@ import Team from "@/components/team/Team";
 import Mentor from "@/components/mentor/Mentor";
 import Teacher from "@/components/teacher/Teacher";
 import Services from "@/components/services/Services";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Team />
       <Mentor />
       <Teacher />
+      <Footer />
     </main>
   );
 }

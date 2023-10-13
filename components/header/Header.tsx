@@ -6,7 +6,7 @@ export default function Header() {
     <Container>
       <Menu>
         <LinkMenu href="#Equipe">Equipe</LinkMenu>
-        <LinkMenu>Projeto</LinkMenu>
+        <LinkMenu href="#Serviços">Serviços</LinkMenu>
         <LinkMenu href="#Mentor">Mentor</LinkMenu>
         <LinkMenu href="#Professor">Professor</LinkMenu>
       </Menu>

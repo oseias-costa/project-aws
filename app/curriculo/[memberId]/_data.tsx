@@ -115,7 +115,7 @@ export const data = [
     phone: "(11) 95726-4647",
     email: "jnildo362@gmail.com",
     download: "../../../files/curriculo-lucas-silva-reis.pdf",
-    linkedin: "lucas-reis",
+    linkedin: "lucas-reis-792a55248",
     skills:
       "Manutenção de computador, HTML, CSS, JavaScript, React, Docker, MySQL, Git, Node.js, Express, mysql2, Sequelize, Jest, chai, sinon, TypeScript",
     professioalExperience: [
@@ -138,7 +138,7 @@ export const data = [
     links: [
       {
         item: "Linkedin",
-        link: "https://www.linkedin.com/in/lucas-reis/",
+        link: "https://www.linkedin.com/in/lucas-reis-792a55248",
       },
     ],
   },
