@@ -1,163 +1,162 @@
 "use client";
 import { styled } from "styled-components";
 
-
 export const Container = styled.section`
-    max-width: 900px;
-    margin: 0 auto;
-    padding-bottom: 40px;
-    border-bottom: 2px solid #F87C18;
-    margin-bottom: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #f87c18;
+  margin-bottom: 50px;
 
-    h2 {
-        color: #5C6A7F;
-        font-size: 42px;
-        font-weight: 300;
-        margin: 0;
-        padding-bottom: 15px;
-    }
+  h2 {
+    color: #5c6a7f;
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 15px;
+  }
 
-    @media(max-width: 740px){
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-`
+  @media (max-width: 740px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+`;
 
 export const TitleContainer = styled.div`
-    border-bottom: 2px solid #F87C18;
-`
+  border-bottom: 2px solid #f87c18;
+`;
 
 export const Title = styled.h1`
-    color: #38ACA8;
-    text-align: center;
-    font-weight: 400;
-    font-size: 36px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-`
+  color: #38aca8;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+`;
 
 export const LinksPage = styled.div`
-    display: flex;
-    padding-top: 20px;
-    align-items: center;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
 
-    p {
-        padding-left: 10px;
-        padding-right: 10px;
-        color: #F87C18;
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f87c18;
 
     font-size: 14px;
-    }
-`
+  }
+`;
 
 export const Link = styled.a`
-    color: #F87C18;
-    text-decoration: none;
-    display: inline;
-    font-size: 14px;
-`
+  color: #f87c18;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+`;
 
 export const Contact = styled.div`
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    @media(max-width: 740px){
-        flex-direction: column;
-    }
-`
+  @media (max-width: 740px) {
+    flex-direction: column;
+  }
+`;
 
 export const ContactRight = styled.div`
-    @media(max-width: 740px){
-        margin-bottom: 40px;
-    }
-`
+  @media (max-width: 740px) {
+    margin-bottom: 40px;
+  }
+`;
 
-export const ContactLeft = styled.div`
-`
+export const ContactLeft = styled.div``;
 
 export const ContactContainer = styled.div`
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 
-    strong, p {
-        color: #5C6A7F;
-        margin: 0;
-        font-size: 16px;
-    }
+  strong,
+  p {
+    color: #5c6a7f;
+    margin: 0;
+    font-size: 16px;
+  }
 
-    a {
-        color: #F87C18;
-        margin: 0;
-        text-decoration: none;
-        transition: .2s linear;
-        padding-left: 5px;
+  a {
+    color: #f87c18;
+    margin: 0;
+    text-decoration: none;
+    transition: 0.2s linear;
+    padding-left: 5px;
 
-        &:hover{
-            color: #38ACA8;
-        }
-    
+    &:hover {
+      color: #38aca8;
     }
-    @media(max-width: 740px) {
-        justify-content: start;
-    }
-`
+  }
+  @media (max-width: 740px) {
+    justify-content: start;
+  }
+`;
 
 export const ItemWithDescriptionContainer = styled.div`
-    h3 {
-        font-size: 22px;
-        font-weight: 500;
-        position: relative;
-        top: 8px;
-    }
-    
-    h3, p {
-        color: #5C6A7F;
-    }
-`
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+  }
+
+  h3,
+  p {
+    color: #5c6a7f;
+  }
+`;
 
 export const ProfissionalExperienceContainer = styled.div`
-    h3 {
-        font-size: 22px;
-        font-weight: 500;
-        color: #5C6A7F;
-        position: relative;
-        top: 12px;
-    }
-
-`
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #5c6a7f;
+    position: relative;
+    top: 12px;
+  }
+`;
 
 export const ExperienceItem = styled.div`
-    h4 {
-        position: relative;
-        top: 10px;
-        font-weight: 500;
-        font-size: 17px;
-    }
+  h4 {
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+  }
 
-    h4, p {
-        color: #5C6A7F;
-    }
+  h4,
+  p {
+    color: #5c6a7f;
+  }
 
-    p {
-        font-weight: 400;
-    }
-`
+  p {
+    font-weight: 400;
+  }
+`;
 
 export const CertificatesContainer = styled.div`
-      h3 {
-        font-size: 22px;
-        font-weight: 500;
-        position: relative;
-        top: 8px;
-        color: #5C6A7F;
-    }
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    color: #5c6a7f;
+  }
 
-    p {
-        margin: 0;
-        margin-bottom: 5px;
-        color: #5C6A7F;
-    }
-`
+  p {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #5c6a7f;
+  }
+`;
 
 export const ButtonDownload = styled.a`
   background: linear-gradient(90deg, #f98615 29.31%, #fea808 77.26%);
@@ -189,5 +188,43 @@ export const ButtonDownload = styled.a`
       rgba(249, 134, 21, 0.25) 0px 8px 16px,
       rgba(249, 134, 21, 0.25) 0px 16px 32px,
       rgba(249, 134, 21, 0.25) 0px 32px 64px;
+  }
+`;
+
+export const LinksContainer = styled.div`
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 12px;
+    color: #5c6a7f;
+  }
+  p {
+    color: #5c6a7f;
+  }
+`;
+
+export const LinkItem = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  a {
+    color: #f87c18;
+    margin: 0;
+    text-decoration: none;
+    transition: 0.2s linear;
+    padding-left: 5px;
+
+    &:hover {
+      color: #38aca8;
+    }
   }
 `;
