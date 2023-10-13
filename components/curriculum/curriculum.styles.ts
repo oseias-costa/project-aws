@@ -90,6 +90,7 @@ export const ContactContainer = styled.div`
         margin: 0;
         text-decoration: none;
         transition: .2s linear;
+        padding-left: 5px;
 
         &:hover{
             color: #38ACA8;
