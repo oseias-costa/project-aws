@@ -212,6 +212,7 @@ export const LinkItem = styled.div`
 
   p {
     margin: 0;
+    width: 67px;
   }
   padding-top: 2px;
   padding-bottom: 2px;
