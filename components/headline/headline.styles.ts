@@ -5,6 +5,11 @@ export const Container = styled.header`
   justify-content: center;
   flex-wrap: wrap-reverse;
   padding-bottom: 20px;
+
+  @media(max-width: 740px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const DescriptionContainer = styled.div`

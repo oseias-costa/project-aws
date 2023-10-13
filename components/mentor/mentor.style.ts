@@ -5,6 +5,13 @@ export const MentorContainer = styled.section`
   padding-top: 73px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media(max-width: 740px) {
+    justify-content: start;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const Description = styled.div`
@@ -26,6 +33,17 @@ export const Description = styled.div`
     font-size: 24px;
     font-weight: 500;
   }
+
+  
+  @media(max-width: 740px){
+    max-width: 100%;
+    padding-left: 0px;
+
+    h3 {
+      position: relative;
+      bottom: 110px;
+    }
+  }
 `;
 
 export const Skills = styled.p`
@@ -46,5 +64,9 @@ export const Img = styled(Image)`
   width: 110px;
   height: 110px;
   position: relative;
-  top: 70px;
+  top: 60px;
+
+  @media(max-width: 740px){
+    
+  }
 `;

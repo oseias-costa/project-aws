@@ -4,6 +4,10 @@ export const Container = styled.header`
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+
+  @media(max-width: 740px) {
+    display: none;
+  }
 `;
 
 export const Menu = styled.nav`

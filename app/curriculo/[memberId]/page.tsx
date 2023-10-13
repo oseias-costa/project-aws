@@ -38,6 +38,12 @@ export default function CurriculoPage({params}: {params: {memberId: string}}){
                     <ContactItem item="Linkedin" content={member.linkedin} />
                 </S.ContactLeft>
             </S.Contact>
+            { member.about !== '' && (
+                <ItemWithDescription 
+                    item="Sobre mim"
+                    content={member.about}
+                />)
+            }
             <ItemWithDescription 
                 item="Compentências"
                 content={member.skills}

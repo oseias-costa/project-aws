@@ -44,6 +44,7 @@ export const data = [
         download: '../../../files/curriculo-larissa-lopes.pdf',
         linkedin: 'larissa0395',
         skills: 'HTML, CSS, Microsoft Office, CloudComputing',
+        about: 'Olá, me chamo Larissa, sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia e suas inovações, busco a primeira oportunidade na área para colocar as mãos na massa e a praticar soluções inovadoras, transformando o mundo em que vivemos em um lugar mais fácil, rápido e inovador. Já tive contato com CloudComputing, HTML, CSS, JavaScript e estou sempre aprimorando os meus conhecimentos em busca da minha sonhada vaga!',
         professioalExperience: [
             {
                 title: 'Atividade Autônoma',

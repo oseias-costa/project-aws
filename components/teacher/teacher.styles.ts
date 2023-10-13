@@ -3,9 +3,16 @@ import Image from "next/image";
 
 export const MentorContainer = styled.section`
   padding-top: 73px;
-  padding-bottom: 73px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+
+  @media(max-width: 740px) {
+    justify-content: start;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const Description = styled.div`
@@ -13,7 +20,7 @@ export const Description = styled.div`
   padding-left: 50px;
 
   h3 {
-    color: #f87c18;
+    color: #38aca8;
     font-size: 32px;
     font-weight: 400;
     margin: 0;
@@ -26,6 +33,17 @@ export const Description = styled.div`
     color: #2a2a2a;
     font-size: 24px;
     font-weight: 500;
+  }
+
+  
+  @media(max-width: 740px){
+    max-width: 100%;
+    padding-left: 0px;
+
+    h3 {
+      position: relative;
+      bottom: 110px;
+    }
   }
 `;
 
@@ -47,5 +65,9 @@ export const Img = styled(Image)`
   width: 110px;
   height: 110px;
   position: relative;
-  top: 70px;
+  top: 60px;
+
+  @media(max-width: 740px){
+    
+  }
 `;

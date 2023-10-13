@@ -32,6 +32,8 @@ export const Title = styled.h1`
     text-align: center;
     font-weight: 400;
     font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 `
 
 export const LinksPage = styled.div`
@@ -75,12 +77,27 @@ export const ContactLeft = styled.div`
 
 export const ContactContainer = styled.div`
     display: flex;
-    align-items: center;
+    justify-content: end;
 
     strong, p {
         color: #5C6A7F;
         margin: 0;
         font-size: 16px;
+    }
+
+    a {
+        color: #F87C18;
+        margin: 0;
+        text-decoration: none;
+        transition: .2s linear;
+
+        &:hover{
+            color: #38ACA8;
+        }
+    
+    }
+    @media(max-width: 740px) {
+        justify-content: start;
     }
 `
 
