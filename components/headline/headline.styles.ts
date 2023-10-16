@@ -45,7 +45,7 @@ export const ButtonHeadline = styled.a`
   color: #fff;
   font-weight: 500;
   text-decoration: none;
-  transition: 0.2s linear;
+  transition: 0.1s linear;
   box-shadow:
     rgba(158, 159, 175, 0.25) 0px 1px 2px,
     rgba(158, 159, 175, 0.25) 0px 2px 4px,

@@ -6,6 +6,7 @@ export const data = [
     email: "oseiasc2@gmail.com",
     download: "../../../files/curriculo-oseias-costa.pdf",
     linkedin: "oseias-costa",
+    about: "",
     skills:
       "HTML, CSS, Javascript, Typescript, React, Redux, Styled Components, Next, Gatsby, Graphql, Git, Node.js, Express, MongoDB",
     professioalExperience: [
@@ -116,6 +117,7 @@ export const data = [
     email: "jnildo362@gmail.com",
     download: "../../../files/curriculo-lucas-silva-reis.pdf",
     linkedin: "lucas-reis-792a55248",
+    about: "",
     skills:
       "Manutenção de computador, HTML, CSS, JavaScript, React, Docker, MySQL, Git, Node.js, Express, mysql2, Sequelize, Jest, chai, sinon, TypeScript",
     professioalExperience: [

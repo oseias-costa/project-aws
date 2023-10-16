@@ -45,9 +45,9 @@ export default function CurriculoPage({
             <ContactItem item="Linkedin" content={member.linkedin} />
           </S.ContactLeft>
         </S.Contact>
-        {member.about !== "" && (
+        {member.about !== "" ? (
           <ItemWithDescription item="Sobre mim" content={member?.about} />
-        )}
+        ) : (<></>)}
         <ItemWithDescription item="Compentências" content={member.skills} />
         <ProfissionalExperience content={member.professioalExperience} />
         <ItemWithDescription item="Formação" content={member.education} />

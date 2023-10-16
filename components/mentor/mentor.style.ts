@@ -64,9 +64,9 @@ export const Img = styled(Image)`
   width: 110px;
   height: 110px;
   position: relative;
-  top: 60px;
+  top: 80px;
 
   @media(max-width: 740px){
-    
+    top: 60px;
   }
 `;
